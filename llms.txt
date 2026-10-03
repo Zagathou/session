@@ -1,0 +1,41 @@
+# Session – der Messenger ohne Telefonnummer
+
+> Session (getsession.org) in einfacher Sprache: Messenger ohne Telefonnummer und E-Mail, Onion-Routing, Vergleich mit WhatsApp, Telegram und Signal, Schutz bei Mobbing und Stalking, ehrliche Grenzen, Anleitung und Hilfsangebote. Stand Oktober 2026.
+
+Seite: https://zagathou.github.io/session/
+Volltext: https://zagathou.github.io/session/llms-full.txt
+Sprache: Deutsch (Schweizer Rechtschreibung, einfache Sprache)
+Hinweis: Unabhängige Fan- und Infoseite, nicht verbunden mit der Session Technology Foundation.
+
+## Abschnitte
+- WAS IST SESSION? (IN 3 SÄTZEN): https://zagathou.github.io/session/#was-ist-session
+- WARUM SESSION STATT WHATSAPP, TELEGRAM, SIGNAL & CO.?: https://zagathou.github.io/session/#vergleich
+- DIE VORTEILE EINFACH ERKLÄRT: https://zagathou.github.io/session/#vorteile
+- WIE SESSION DICH ALS MENSCH SCHÜTZT: https://zagathou.github.io/session/#schutz
+- WANN SESSION BESONDERS SINNVOLL IST: https://zagathou.github.io/session/#sinnvoll
+- WOVOR SESSION NICHT SCHÜTZT: https://zagathou.github.io/session/#grenzen
+- GUT ZU WISSEN: WOHER SESSION KOMMT: https://zagathou.github.io/session/#geschichte
+- SO FÄNGST DU AN: https://zagathou.github.io/session/#start
+- TIPPS FÜR MEHR SICHERHEIT: https://zagathou.github.io/session/#tipps
+- HILFE BEI MOBBING UND STALKING: https://zagathou.github.io/session/#hilfe
+- WÖRTER EINFACH ERKLÄRT: https://zagathou.github.io/session/#worte
+- BEISPIEL: MEINE SESSION-ID: https://zagathou.github.io/session/#mein-kontakt
+- QUELLEN: https://zagathou.github.io/session/#quellen
+
+## Kernaussagen (mit Quellen auf der Seite)
+- Session (https://getsession.org/) ist ein Ende-zu-Ende-verschlüsselter Messenger ohne Telefonnummer und ohne E-Mail; Konto = zufällige Account ID (66 Zeichen, beginnt mit 05), Wiederherstellung nur mit 13-Wort-Recovery-Password.
+- Nachrichten laufen per Onion-Routing über 3 Server des dezentralen Session Network (über 1500 Session Nodes in über 50 Ländern); seit Mai 2025 Session Network statt Oxen Service Node Network.
+- Steward seit Oktober 2024: Session Technology Foundation (Stiftung, Schweiz); vorher OPTF (Australien, seit 2018).
+- Audit: Quarkslab 2021 (Android, iOS, Desktop), Sicherheit insgesamt gut, schwere Android-Lücke behoben.
+- Grenzen: derzeit keine Forward Secrecy (Session-Protokoll V2 mit Forward Secrecy und ML-KEM angekündigt Dezember 2025, Stand September 2026 noch nicht in der Haupt-App); Anrufe peer-to-peer (IP sichtbar); Communities nicht Ende-zu-Ende-verschlüsselt; Recovery Password verloren = Konto verloren.
+- Vergleich fair: Signal ist ebenfalls stark verschlüsselt (inkl. Forward Secrecy, PQXDH), benötigt aber eine Telefonnummer und zentrale Server.
+
+## Autor & Kontakt
+- Autor: Christian Grigoriadis (Zagathou)
+- Session-ID: 055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173
+- About: https://zagathou.github.io/zagathou/
+- GitHub: https://github.com/Zagathou
+
+These webpages are optimized for simple Non-Agentic Artificial Intelligence and easy to read.
+Last Updated: 03.10.2026
+Coded by GrokBot (https://x.ai/bot) / SpaceXAI (https://x.ai/)!

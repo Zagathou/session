@@ -1,0 +1,315 @@
+# Session – der Messenger ohne Telefonnummer (Volltext)
+
+> Session (getsession.org) in einfacher Sprache: Messenger ohne Telefonnummer und E-Mail, Onion-Routing, Vergleich mit WhatsApp, Telegram und Signal, Schutz bei Mobbing und Stalking, ehrliche Grenzen, Anleitung und Hilfsangebote. Stand Oktober 2026.
+
+Seite: https://zagathou.github.io/session/
+Kurzfassung: https://zagathou.github.io/session/llms.txt
+Sprache: Deutsch (Schweizer Rechtschreibung, einfache Sprache)
+Autor: Christian Grigoriadis (Zagathou)
+Last Updated: 03.10.2026
+
+---
+
+# Session – der Messenger ohne Telefonnummer
+
+Eine einfache Erklärung auf Deutsch: Was Session ist, wie es dich schützt, wo seine Grenzen sind und wie du anfängst.
+
+Diese Seite ist für alle gedacht, die sich mit Technik nicht auskennen. Jedes Fachwort wird erklärt. Alles stützt sich auf offizielle Quellen. Die Links findest du ganz unten bei QUELLEN.
+
+Hinweis: Dies ist eine unabhängige Fan- und Infoseite. Sie gehört nicht zur Session Technology Foundation und wird von ihr weder betrieben noch bezahlt. Stand der Informationen: 03.10.2026.
+
+## Was ist Session? (in 3 Sätzen)
+
+1. Session ist eine kostenlose Chat-App für Handy und Computer: Du schickst damit Nachrichten, Fotos, Sprachnachrichten und Dateien – ähnlich wie mit WhatsApp.
+2. Du brauchst dafür keine Telefonnummer und keine E-Mail-Adresse, denn die App erstellt dir eine zufällige Kennung, die Account ID.
+3. Deine Nachrichten sind so verschlüsselt, dass nur du und dein Gegenüber sie lesen könnt, und sie laufen über viele Server auf der ganzen Welt – so sieht kein einzelner Server, wer mit wem schreibt.
+
+Session gibt es für Android, iPhone, Windows, Mac und Linux. Laut Session nutzen es weltweit über eine Million Menschen (Stand 2024).
+
+## Warum Session statt WhatsApp, Telegram, Signal & Co.?
+
+Ganz ehrlich vorweg: Es gibt nicht den perfekten Messenger. Fast alle bekannten Apps verschlüsseln deine Nachrichten heute gut. Die grossen Unterschiede liegen woanders. Es geht vor allem um vier Fragen:
+
+- Musst du deine Telefonnummer angeben? Eine Telefonnummer ist fast immer mit deinem echten Namen verbunden.
+- Wer sieht deine Metadaten? Metadaten sind alles ausser dem Text selbst: wer mit wem schreibt, wann, wie oft und von wo.
+- Wer betreibt die Server? Ein Server ist ein Computer im Internet, der deine Nachrichten weiterleitet.
+- Wem gehört die App? Eine Firma, die mit Werbung Geld verdient, hat andere Ziele als eine Stiftung.
+
+Vergleich der bekannten Messenger (vereinfacht, Stand Oktober 2026). Auf dem Handy kannst du die Tabelle seitlich wischen.:
+| Frage | Session | Signal | WhatsApp | Telegram | Threema |
+| Telefonnummer nötig? | Nein, auch keine E-Mail | Ja. Seit 2024 kannst du sie mit einem Benutzernamen vor anderen verbergen. | Ja. Benutzernamen kommen 2026, die Nummer bleibt aber Pflicht. | Ja | Nein |
+| Ende-zu-Ende-verschlüsselt (automatisch)? | Ja (Ausnahme: grosse öffentliche „Communities“) | Ja | Ja | Nein. Nur „Geheime Chats“ zu zweit. | Ja |
+| Wer betreibt die Server? | Über 1500 Server von vielen Betreibern in über 50 Ländern | Signal selbst (zentral) | Meta (zentral) | Telegram selbst (zentral) | Threema selbst (zentral, in der Schweiz) |
+| Wird deine IP-Adresse versteckt? | Ja, durch Onion-Routing (Ausnahme: Anrufe) | Nicht eingebaut. Signal sagt aber, es habe fast keine Daten über dich. | Nein. WhatsApp erfasst laut Datenschutzerklärung unter anderem deine IP-Adresse. | Nein. Seit 2024 gibt Telegram bei Gerichtsbeschluss IP-Adresse und Nummer von Verdächtigen heraus. | Nicht eingebaut |
+| Wem gehört es? | Session Technology Foundation (Stiftung, Schweiz) | Signal Foundation (gemeinnützig, USA) | Meta (Facebook, Instagram), USA | Firma von Pavel Durov, Sitz in Dubai | Threema AG (Schweiz) |
+| Quellcode offen (Open Source)? | Ja | Ja | Nein | Nur die Apps | Die Apps |
+| Forward Secrecy? | Noch nicht (geplant mit „Protokoll V2“) | Ja | Ja | Nur in Geheimen Chats | Ja |
+
+### Fair gesagt
+
+- Signal ist sehr stark verschlüsselt und wird von vielen Fachleuten empfohlen. Bei der Verschlüsselung selbst ist Signal in manchen Punkten sogar weiter als Session, zum Beispiel bei Forward Secrecy und beim Schutz vor künftigen Quantencomputern. Der grosse Unterschied: Für Signal brauchst du eine Telefonnummer, und die Nachrichten laufen über die zentralen Server von Signal.
+- WhatsApp verschlüsselt den Inhalt deiner Chats ebenfalls gut. Aber WhatsApp gehört zu Meta. Laut eigener Datenschutzerklärung sammelt WhatsApp viele Metadaten, zum Beispiel Gerätedaten, IP-Adresse und ungefähren Standort.
+- Telegram verschlüsselt normale Chats und Gruppen nicht Ende-zu-Ende. Sie liegen auf den Servern von Telegram. Nur die „Geheimen Chats“ zu zweit sind Ende-zu-Ende-verschlüsselt.
+- Threema braucht wie Session keine Telefonnummer und kommt aus der Schweiz. Die Nachrichten laufen aber über die zentralen Server der Firma.
+- Session ist besonders stark, wenn es um Anonymität geht: keine Nummer, keine E-Mail, und durch das Onion-Routing sieht kein einzelner Server, wer mit wem schreibt.
+
+## Die Vorteile einfach erklärt
+
+- Keine Telefonnummer, keine E-Mail. Du bekommst eine zufällige Account ID. Sie beginnt mit „05“ und ist 66 Zeichen lang. Niemand kann über sie herausfinden, wer du bist – ausser du verrätst es selbst.
+- Niemand findet dich über deine Nummer. Weil es keine Telefonnummern gibt, gibt es auch keinen Abgleich mit Adressbüchern. Nur wer deine Account ID von dir bekommt, kann dir schreiben.
+- Ende-zu-Ende-Verschlüsselung. Deine Nachricht wird auf deinem Gerät verschlossen und erst auf dem Gerät deines Gegenübers wieder geöffnet. Dazwischen kann sie niemand lesen – auch nicht die Server.
+- Onion-Routing (Zwiebel-Weg). Deine Nachricht wird in mehrere Schichten verpackt, wie eine Zwiebel. Sie reist über drei zufällige Server. Jeder Server entfernt nur eine Schicht. Kein Server weiss gleichzeitig, woher die Nachricht kommt und wohin sie geht. So bleibt deine IP-Adresse verborgen.
+- Dezentral. Es gibt keinen einzelnen Hauptserver für deine Nachrichten. Das Netzwerk besteht aus über 1500 Servern („Session Nodes“) in über 50 Ländern. Das macht es schwerer, Session zu überwachen oder abzuschalten.
+- Keine Werbung, keine Tracker. Laut Session werden deine Daten nicht gesammelt, nicht verfolgt und nicht verkauft. Die Idee dahinter: Wo keine Daten gespeichert sind, kann auch nichts gestohlen werden.
+- Offener Quellcode (Open Source). Der Bauplan der App ist öffentlich. Jede Fachperson kann nachprüfen, was die App wirklich tut. 2021 hat die Sicherheitsfirma Quarkslab Session geprüft und die Sicherheit insgesamt als gut bewertet.
+- Verschwindende Nachrichten. Du kannst einstellen, dass Nachrichten nach einer bestimmten Zeit automatisch gelöscht werden – nach dem Senden oder nach dem Lesen.
+- Nachrichtenanfragen. Schreibt dir jemand Unbekanntes, landet das in einem eigenen Ordner. Du entscheidest: annehmen, ablehnen oder blockieren.
+- Kostenlos. Session ist gratis. Geplant ist ein freiwilliges „Session Pro“ mit Zusatzfunktionen. Die Grundfunktionen und alle Sicherheitsfunktionen sollen laut Session kostenlos bleiben.
+- Betreut aus der Schweiz. Seit Oktober 2024 kümmert sich eine Schweizer Stiftung um Session, die Session Technology Foundation. Die Schweiz hat einen guten Ruf beim Datenschutz.
+
+## Wie Session dich als Mensch schützt
+
+Technik ist nur ein Werkzeug. Wichtig ist, was sie im echten Leben bedeutet. Hier sind typische Situationen – mit ehrlichen Hinweisen, was Session kann und was nicht.
+
+### Mobbing in der Schule und auf Social Media
+
+- Deine Nummer bleibt privat. In vielen Klassen-Chats sehen alle die Telefonnummern aller anderen. Wer deine Nummer hat, kann sie weitergeben, dich in Gruppen stecken oder dich anrufen. Bei Session gibt es keine Nummer. Nur wer deine Account ID von dir bekommt, kann dich erreichen.
+- Niemand findet dich zufällig. Es gibt kein öffentliches Verzeichnis. Niemand kann deine Nummer eintippen und sehen, dass du Session nutzt.
+- Nachrichtenanfragen. Fremde Nachrichten kommen nicht direkt in deine Chats, sondern in den Ordner „Nachrichtenanfragen“. Wenn du eine Anfrage nur ansiehst, bekommt die andere Person keine Lesebestätigung.
+- Blockieren. Du kannst jede Person blockieren, auch direkt aus einer Nachrichtenanfrage heraus.
+- Neustart möglich. Wenn es gar nicht mehr geht, kannst du dir in Sekunden eine neue Account ID erstellen und sie nur noch Menschen geben, denen du vertraust. Deine alten Kontakte und Chats sind dann aber weg.
+- Beweise sichern. Mach Screenshots von Beleidigungen oder Drohungen, mit Datum und Uhrzeit. Session hat im November 2025 entschieden, Screenshot-Warnungen zu entfernen. Ein Grund war genau das: Wer Belästigung dokumentieren will, soll das tun können, ohne dass die andere Person gewarnt wird.
+- Ehrlich: Die Anonymität gilt für alle. Auch eine Person, die mobbt, kann sich schnell eine neue Account ID machen. Ihre Nachrichten landen dann wieder bei den Nachrichtenanfragen. Session kann Mobbing nicht beenden – aber es gibt dir mehr Kontrolle. Hol dir Hilfe. Wo, steht weiter unten bei HILFE BEI MOBBING UND STALKING.
+
+### Stalking und Verfolgung
+
+- Deine IP-Adresse bleibt versteckt. Eine IP-Adresse ist wie eine Absenderadresse im Internet. Aus ihr kann man oft deinen Internetanbieter und ungefähr deinen Wohnort erkennen. Durch das Onion-Routing sieht dein Gegenüber deine IP-Adresse nicht – und kein einzelner Server kennt gleichzeitig dich und dein Ziel.
+- Kein Standort. Laut Session sammelt die App keine Standortdaten und keine Daten über dein Gerät oder dein Netzwerk.
+- Achtung bei Anrufen: Sprach- und Videoanrufe sind bei Session eine Testfunktion (Beta) und standardmässig ausgeschaltet. Sie laufen direkt von Gerät zu Gerät. Dabei sieht dein Gesprächspartner deine IP-Adresse. Wenn du dich vor einer Person verstecken musst, lass Anrufe ausgeschaltet.
+- Achtung bei Fotos: Fotos können versteckte Infos enthalten, zum Beispiel den Ort der Aufnahme (sogenannte EXIF-Daten). Session entfernt diese Infos nur am Computer, nicht am Handy. Schalte am besten in deiner Kamera-App die Standortspeicherung aus.
+- Achtung bei Link-Vorschauen: Link-Vorschauen sind bei Session standardmässig aus. Wenn du sie einschaltest, verbindet sich deine App direkt mit der Webseite – und die Webseite sieht deine IP-Adresse.
+- Ehrlich: Wenn jemand Zugriff auf dein Handy hatte und dort eine Spionage-App (Stalkerware) installiert hat, hilft keine Messenger-App. Mehr dazu bei WOVOR SESSION NICHT SCHÜTZT.
+
+### Investigative Journalistinnen, Journalisten und ihre Quellen
+
+- Eine Quelle ist eine Person, die Journalisten heimlich Informationen gibt, zum Beispiel über Missstände in einer Firma oder Behörde. Für sie kann es gefährlich werden, wenn herauskommt, dass sie mit einer Zeitung gesprochen hat.
+- Bei Session braucht die Quelle keine Telefonnummer. Ihre Account ID ist nicht mit ihrem Namen verbunden. Durch das Onion-Routing ist schwer nachzuvollziehen, wer mit wem in Kontakt steht.
+- Verschwindende Nachrichten sorgen dafür, dass heikle Gespräche nicht ewig auf den Geräten liegen.
+- Wichtig: Prüft eure Account IDs über einen zweiten, sicheren Weg, zum Beispiel persönlich. So weisst du, dass du wirklich mit der richtigen Person schreibst. Bei sehr hohem Risiko solltet ihr zusätzlich Fachleute für digitale Sicherheit fragen.
+
+### Verfolgte Minderheiten, Aktivistinnen und Aktivisten
+
+- In manchen Ländern werden Menschen verfolgt, weil sie zu einer Minderheit gehören, ihre Meinung sagen oder sich für Menschenrechte einsetzen. Für sie ist es lebenswichtig, dass niemand mitlesen kann – und dass niemand weiss, wer mit wem vernetzt ist.
+- Session funktioniert ohne Nummer und ohne Namen. Die Server werden von vielen verschiedenen Betreibern in vielen Ländern betrieben. Der Quellcode ist offen, versteckte Hintertüren würden also eher auffallen.
+- Session selbst berichtet, dass Internetanbieter in manchen Regionen den Zugang zum Session-Netzwerk sperren. Ein VPN kann dann helfen. Ein VPN ist ein Dienst, der deine Verbindung über einen anderen Server umleitet.
+- Ehrlich: In manchen Ländern kann schon eine Verschlüsselungs-App auf dem Handy Aufmerksamkeit erregen. Session kann dich nicht davor schützen, dass jemand dein Handy durchsucht.
+
+### Schutz deiner Psyche und deines Wohlbefindens
+
+- Du bestimmst, wer dich erreicht. Nur Menschen mit deiner Account ID können dir schreiben. Unbekannte landen bei den Nachrichtenanfragen. Das schafft Ruhe.
+- Weniger Druck. Du kannst Lesebestätigungen und die Anzeige „schreibt gerade …“ ausschalten. Dann sieht niemand, ob und wann du eine Nachricht gelesen hast. Du darfst antworten, wann es dir passt.
+- Ruhige Benachrichtigungen. Du kannst einstellen, dass Benachrichtigungen weder Namen noch Inhalt zeigen. So liest niemand über deine Schulter mit, und eine verletzende Nachricht springt dich nicht auf dem Sperrbildschirm an.
+- Altes darf gehen. Mit verschwindenden Nachrichten bleiben alte Streits nicht für immer gespeichert.
+- Und denk daran: Pausen vom Handy sind okay. Wenn dich etwas belastet, sprich mit jemandem, dem du vertraust.
+
+### Hacking, Schadsoftware und Zero-Click-Angriffe
+
+- Schadsoftware (auch Malware) ist ein Programm, das deinem Gerät oder dir schadet. Spyware ist Schadsoftware, die dich heimlich ausspioniert. Ein Exploit ist ein Trick, der einen Fehler in einer App ausnutzt, um in ein Gerät einzubrechen.
+- Was ist ein Zero-Click-Angriff? Bei den meisten Angriffen musst du etwas tun, zum Beispiel auf einen Link tippen. Bei einem Zero-Click-Angriff („null Klicks“) musst du gar nichts tun. Es reicht, dass eine präparierte Nachricht oder ein Anruf auf deinem Handy ankommt.
+- Echte Beispiele: 2019 wurde eine Lücke in WhatsApp ausgenutzt. Ein Anruf genügte, selbst wenn man nicht abnahm. 2021 entdeckte das Citizen Lab den Angriff „FORCEDENTRY“ über iMessage auf dem iPhone. Er wurde genutzt, um die Spionage-Software Pegasus aufzuspielen. Beide Lücken wurden inzwischen geschlossen.
+- Wie Session die Angriffsfläche verkleinert: Je weniger eine App automatisch tut, desto weniger Türen gibt es für Angreifer. Bei Session sind Anrufe standardmässig aus, und anrufen können dich nur Menschen aus deiner Kontaktliste. Link-Vorschauen sind standardmässig aus. Unbekannte Absender landen bei den Nachrichtenanfragen. Ausserdem gibt es keine Telefonnummer, über die man dich gezielt angreifen kann – zum Beispiel mit SIM-Swapping. Dabei lassen Betrüger deine Nummer auf ihre eigene SIM-Karte umleiten.
+- Ganz ehrlich: Keine App ist unknackbar, auch Session nicht. Auch eine Nachrichtenanfrage wird von der App empfangen und verarbeitet. Bei der Prüfung 2021 fand Quarkslab auch bei Session Schwachstellen, darunter eine schwere. Sie wurden behoben.
+- Was dich am besten schützt: Halte dein Handy und deine Apps immer aktuell. Updates schliessen Sicherheitslücken. Auf dem iPhone gibt es für besonders gefährdete Menschen den „Blockierungsmodus“. Er schaltet viele Funktionen ab, die Angreifer gern nutzen.
+
+## Wann Session besonders sinnvoll ist
+
+- Wenn du online Menschen kennenlernst (zum Beispiel in Foren, beim Gaming oder beim Online-Dating) und ihnen nicht gleich deine Nummer geben willst.
+- Wenn du gemobbt, belästigt oder gestalkt wirst und selbst bestimmen willst, wer dich erreicht.
+- Wenn du über etwas Heikles sprechen willst: Gesundheit, Sexualität, Glaube, Probleme in der Familie oder bei der Arbeit.
+- Wenn du als Journalistin, Journalist oder Quelle arbeitest.
+- Wenn du dich politisch engagierst oder in einem Land lebst, in dem Menschen überwacht werden.
+- Wenn du einfach nicht willst, dass ein grosser Konzern weiss, mit wem du wann schreibst.
+- Wenn du einen zweiten Kontaktweg willst, den du an Fremde weitergeben kannst, ohne deine echte Nummer zu verraten.
+
+## Wovor Session NICHT schützt
+
+Kein Messenger macht dich unverwundbar. Diese Grenzen solltest du kennen:
+
+- Jemand hat dein entsperrtes Handy. Wer dein Handy offen in der Hand hat, kann deine Chats lesen. Nutze eine Bildschirmsperre und die App-Sperre von Session.
+- Screenshots und Weiterleiten. Dein Gegenüber kann jede Nachricht fotografieren, abschreiben oder weiterzeigen. Auch verschwindende Nachrichten verhindern das nicht. Session warnt dich nicht vor Screenshots.
+- Spyware auf deinem Gerät. Ist dein Handy mit Spionage-Software infiziert, kann sie alles mitlesen, was auf deinem Bildschirm erscheint. Verschlüsselung hilft dann nicht.
+- Du gibst deine ID der falschen Person. Deine Account ID bleibt gleich, bis du ein neues Konto erstellst. Wer sie hat, kann dir schreiben oder sie weitergeben.
+- Recovery Password verloren = Konto weg. Das Recovery Password besteht aus 13 Wörtern. Es ist der einzige Schlüssel zu deinem Konto. Es gibt keinen Server, der es für dich speichert, und keinen Support, der es zurücksetzen kann. Verlierst du dein Handy und das Recovery Password, ist dein Konto für immer verloren. Und wer dein Recovery Password kennt, kann dein Konto übernehmen.
+- Nur 14 Tage zurück. Wenn du dein Konto auf einem neuen Gerät wiederherstellst, bekommst du nur die Nachrichten der letzten 14 Tage zurück.
+- Noch keine Forward Secrecy. Forward Secrecy bedeutet: Selbst wenn jemand eines Tages deinen geheimen Schlüssel stiehlt, kann er alte, heimlich mitgeschnittene Nachrichten nicht entschlüsseln. Session hat das 2020 beim Wechsel auf ein eigenes Verschlüsselungsverfahren weggelassen. Session sagt selbst: Das holt das neue „Session-Protokoll V2“ nach, zusammen mit Schutz vor künftigen Quantencomputern. Stand September 2026 ist V2 aber noch nicht in der normalen App. Geplant ist zuerst eine Testversion nur auf Einladung.
+- Anrufe zeigen deine IP-Adresse. Bei Anrufen sehen dein Gesprächspartner und ein Hilfsserver der Stiftung deine IP-Adresse.
+- Communities sind nicht Ende-zu-Ende-verschlüsselt. Communities sind grosse, öffentliche Gruppen. Sie laufen auf Servern, die jemand selbst betreibt. Die Nachrichten sind nur auf dem Weg zum Server verschlüsselt. Für private Gespräche nimm normale Gruppen (bis 100 Personen) oder Einzelchats.
+- Schnelle Benachrichtigungen. Am Handy kannst du „schnelle“ Benachrichtigungen über Google oder Apple wählen. Dann sehen Google oder Apple deine IP-Adresse und eine Gerätekennung. Ein Server der Stiftung sieht deine Account ID. Inhalte oder Gesprächspartner sieht dabei niemand. Wer maximale Privatsphäre will, wählt den langsamen Modus.
+- Betrug und falsche Identitäten. Weil alle anonym sind, kann sich jeder als jemand anderes ausgeben. Prüfe neue Kontakte über einen zweiten Weg.
+- Du verrätst dich selbst. Wenn du deinen echten Namen, ein Foto von dir oder deine Schule angibst, bist du nicht mehr anonym.
+- Kritik von Fachleuten. Im Januar 2025 veröffentlichte ein Sicherheitsforscher (Blog „Soatok“) Kritik an Session, unter anderem an der Art, wie Schlüssel erzeugt werden. Session antwortete ausführlich und hält die Kritik für falsch oder irreführend. Fachleute sind sich nicht in allen Punkten einig. Beide Texte findest du bei den Quellen.
+- Kleines Team. Anfang 2026 musste die Stiftung die Entwicklung aus Geldmangel pausieren. Seit Juni 2026 arbeitet dank Spenden wieder ein kleines Team von zwei bis drei Entwicklern an Session. Das kann bedeuten, dass neue Funktionen und Fehlerbehebungen langsamer kommen.
+
+## Gut zu wissen: Woher Session kommt
+
+- 2018: Session entsteht in Australien. Betreut wird es von der gemeinnützigen OPTF (Oxen Privacy Tech Foundation). Die App baut ursprünglich auf dem Code von Signal auf.
+- 2020: Session schickt Nachrichten über Onion-Routing durch drei Server. Im Dezember ersetzt Session die Signal-Verschlüsselung durch ein eigenes Verfahren, das „Session-Protokoll“. Es passt besser zu einem dezentralen Netzwerk, verzichtet aber auf Forward Secrecy.
+- 2021: Die französische Sicherheitsfirma Quarkslab veröffentlicht ihre Prüfung (Audit) der Apps für Android, iPhone und Computer. Ergebnis: Die Sicherheit ist insgesamt gut. Die schwerwiegendste Schwachstelle betraf Android und wurde behoben.
+- 2022: Nachrichtenanfragen kommen. Sprach- und Videoanrufe gibt es als Testfunktion.
+- Oktober 2024: Die neue Schweizer Session Technology Foundation (STF) übernimmt. Grund laut OPTF und Medienberichten: Das Umfeld in Australien war feindlich gegenüber Verschlüsselungs-Apps. Die Polizei hatte Mitarbeitende kontaktiert und eine Person zu Hause besucht.
+- Mai 2025: Das Netzwerk wechselt vom „Oxen Service Node Network“ zum neuen „Session Network“ mit der Kryptowährung Session Token. Wer einen Server betreibt, muss Session Token als Pfand hinterlegen. Das soll verhindern, dass jemand heimlich sehr viele Server aufstellt. Für normale Nutzer ändert sich nichts. Du brauchst nie Session Token, um Session zu benutzen.
+- Dezember 2025: Session kündigt das „Session-Protokoll V2“ an: mit Forward Secrecy, Schutz vor künftigen Quantencomputern (ML-KEM) und besserer Geräteverwaltung.
+- 2026: Aus Geldmangel pausiert die Entwicklung. Nach einem Spendenaufruf geht es ab Juni 2026 mit einem kleinen Team weiter. Im September 2026 wird „Session Pro Beta“ bei Apple und Google zur Prüfung eingereicht. Eine erste Testversion von Protokoll V2 soll als eigene App nur auf Einladung kommen.
+
+## So fängst du an
+
+1. Nur offiziell herunterladen. Geh auf https://getsession.org/download. Von dort kommst du zu den echten Einträgen im App Store (iPhone), bei Google Play (Android), zu F-Droid und zu den Versionen für Computer. Fake-Apps können gefährlich sein.
+2. Konto erstellen. Öffne die App und erstelle ein neues Konto. Die App erzeugt deine Account ID in wenigen Sekunden auf deinem Gerät.
+3. Namen wählen. Gib einen Anzeigenamen ein. Das darf ein Spitzname sein. Wenn du anonym bleiben willst, nimm nicht deinen echten Namen.
+4. Recovery Password sichern. Session zeigt dir dein Recovery Password: 13 Wörter. Schreib sie auf Papier, in der richtigen Reihenfolge. Bewahre das Papier an einem sicheren Ort auf. Zeig es niemandem und schick es nie jemandem.
+5. Benachrichtigungen wählen. Schneller Modus: über Google oder Apple, bequem. Langsamer Modus: Die App fragt selbst nach neuen Nachrichten. Das ist privater, aber Nachrichten kommen manchmal später an.
+6. Account ID oder QR-Code teilen. In der App findest du deine Account ID und einen QR-Code dazu (bei deinem Profil in den Einstellungen). Am sichersten teilst du sie persönlich: Dein Freund scannt deinen QR-Code. Vergleicht dabei die letzten vier Zeichen der ID.
+7. Kontakt hinzufügen. Tippe auf das Plus-Zeichen, füge die Account ID deines Kontakts ein oder scanne seinen QR-Code. Schreib die erste Nachricht – fertig!
+
+## Tipps für mehr Sicherheit
+
+- Bildschirmsperre: Schütze dein Handy mit einem starken Code. Schalte in Session zusätzlich die App-Sperre ein (Fingerabdruck, Gesicht oder Code). Am Computer kannst du Session mit einem Passwort schützen.
+- Verschwindende Nachrichten: Stell sie für heikle Chats ein. Das geht für jeden Chat einzeln.
+- Updates: Halte Session und dein Handy immer aktuell. Am besten mit automatischen Updates.
+- Benachrichtigungen: Stell ein, dass weder Name noch Inhalt angezeigt werden.
+- Lesebestätigungen und Tipp-Anzeige: Schalte sie aus, wenn du mehr Ruhe willst.
+- Anrufe aus lassen: Wenn deine IP-Adresse geheim bleiben muss, lass Anrufe ausgeschaltet.
+- Link-Vorschauen aus lassen: So bleibt deine IP-Adresse vor fremden Webseiten verborgen.
+- Vorsicht in Communities: Poste dort nie deine Account ID. Du kannst Nachrichtenanfragen aus Communities in den Einstellungen abschalten.
+- Kontakte prüfen: Vergleiche die Account ID über einen zweiten Weg, am besten persönlich.
+- Standort aus Fotos: Schalte in deiner Kamera-App die Standortspeicherung aus.
+- Recovery Password: Nie abfotografieren, nie in eine Cloud legen, nie weitergeben. Niemand Seriöses wird dich jemals danach fragen.
+- Besonders gefährdet? Auf dem iPhone kannst du den Blockierungsmodus einschalten.
+
+## Hilfe bei Mobbing und Stalking
+
+Du bist nicht allein, und es ist nicht deine Schuld. Diese Stellen helfen dir – meistens kostenlos und anonym. Anonym heisst: Du musst deinen Namen nicht sagen.
+
+Bei akuter Gefahr: Ruf sofort die Polizei unter 110 an. Rettungsdienst und Feuerwehr erreichst du unter 112.
+
+Hilfsangebote in Deutschland (geprüft am 03.10.2026). Auf dem Handy kannst du die Tabelle seitlich wischen.:
+| Stelle | Für wen und wann | Kontakt |
+| Nummer gegen Kummer – Kinder- und Jugendtelefon | Für Kinder und Jugendliche. Montag bis Samstag, 14 bis 20 Uhr. Kostenlos und anonym. Es gibt auch eine Online-Beratung. | 116 111 / https://www.nummergegenkummer.de/ |
+| Nummer gegen Kummer – Elterntelefon | Für Eltern und Bezugspersonen, die sich Sorgen um ein Kind machen. | 0800 111 0 550 |
+| krisenchat | Chat-Beratung in Krisen für alle unter 25 Jahren. Kostenlos. | https://www.krisenchat.de/ |
+| JUUUPORT | Online-Beratung für junge Menschen mit Problemen im Netz, zum Beispiel Cybermobbing. | https://www.juuuport.de/ |
+| HateAid | Beratung und rechtliche Unterstützung bei digitaler Gewalt, zum Beispiel Hass, Bedrohung oder Blossstellung im Netz. | https://hateaid.org/betroffenenberatung/ |
+| Hilfetelefon „Gewalt gegen Frauen“ | Für Frauen, die Gewalt erleben, auch Stalking – und für Angehörige. Rund um die Uhr, an 365 Tagen, anonym, kostenfrei, in 18 Sprachen. | 116 016 / https://www.hilfetelefon.de/ |
+| WEISSER RING – Opfer-Telefon | Für alle, die eine Straftat erlebt haben, auch Stalking. Täglich 7 bis 22 Uhr, bundesweit, kostenfrei, anonym. | 116 006 / https://weisser-ring.de/hilfe-fuer-opfer/opfer-telefon |
+| TelefonSeelsorge | Wenn dich etwas belastet und du reden willst. Rund um die Uhr, kostenfrei. Auch per Chat und Mail. | 0800 111 0 111 · 0800 111 0 222 · 116 123 / https://www.telefonseelsorge.de/ |
+| klicksafe | Infos und Tipps: Was tun bei Cybermobbing? | https://www.klicksafe.de/cybermobbing |
+
+In der Schweiz: Beratung für Kinder und Jugendliche (Pro Juventute) unter 147, https://www.147.ch/de/ · Die Dargebotene Hand unter 143, https://www.143.ch/. In Österreich: Rat auf Draht unter 147, https://www.rataufdraht.at/.
+
+### Was du sofort tun kannst
+
+- Antworte nicht auf Beleidigungen oder Drohungen.
+- Sichere Beweise: Screenshots mit Datum, Uhrzeit und Absender.
+- Blockiere die Person und melde sie, wo das möglich ist.
+- Erzähl es einem Menschen, dem du vertraust: Eltern, Freunden, einer Lehrkraft oder einer Beratungsstelle.
+- Bei Drohungen oder Stalking: Geh zur Polizei und erstatte Anzeige.
+
+## Wörter einfach erklärt
+
+- Account ID: Deine Adresse bei Session. Eine zufällige Folge aus 66 Zeichen, die mit „05“ beginnt. Sie ersetzt die Telefonnummer.
+- Recovery Password: 13 Wörter, mit denen du dein Konto auf einem neuen Gerät zurückholst. Wie ein Generalschlüssel. Nie weitergeben!
+- Verschlüsselung: Eine Nachricht wird in Zeichensalat verwandelt. Nur wer den richtigen Schlüssel hat, kann sie wieder lesbar machen.
+- Ende-zu-Ende-Verschlüsselung: Nur die beiden „Enden“ – also du und dein Gegenüber – haben den Schlüssel. Niemand dazwischen kann mitlesen.
+- Metadaten: Alles rund um eine Nachricht, ausser dem Inhalt: wer, mit wem, wann, wie oft, von wo.
+- IP-Adresse: Die Adresse deines Geräts im Internet. Sie kann deinen Internetanbieter und ungefähr deinen Ort verraten.
+- Server: Ein Computer im Internet, der Daten speichert oder weiterleitet.
+- Dezentral: Es gibt keine zentrale Stelle. Viele unabhängige Computer teilen sich die Arbeit.
+- Onion-Routing: „Zwiebel-Weg“: Eine Nachricht wird mehrfach verpackt und über mehrere Server geschickt. Jeder kennt nur seinen Nachbarn, nie den ganzen Weg.
+- Session Node: Einer der über 1500 Server im Session-Netzwerk.
+- Open Source: Der Bauplan (Quellcode) einer App ist öffentlich. Jeder kann ihn prüfen.
+- Audit: Eine Sicherheitsprüfung durch unabhängige Fachleute.
+- Forward Secrecy: Schutz für alte Nachrichten: Auch wenn ein Schlüssel später gestohlen wird, bleiben frühere Nachrichten geheim.
+- Quantencomputer: Eine neue Art von Computer. Heute gibt es noch keinen, der stark genug ist, um gängige Verschlüsselung zu knacken. Eines Tages könnte das aber möglich sein. Deshalb rüsten Messenger jetzt schon vor.
+- Schadsoftware / Spyware: Programme, die deinem Gerät schaden oder dich heimlich ausspionieren.
+- Exploit: Ein Trick, der einen Fehler in einer Software ausnutzt, um einzubrechen.
+- Zero-Click-Angriff: Ein Angriff, bei dem du nichts anklicken musst. Es reicht, dass etwas auf deinem Gerät ankommt.
+- VPN: Ein Dienst, der deine Internetverbindung über einen anderen Server umleitet.
+- Stiftung: Eine Organisation ohne Eigentümer und ohne Aktionäre, die an einen festen Zweck gebunden ist.
+
+## Beispiel: Meine Session-ID
+
+So sieht eine echte Account ID aus. Es ist meine eigene. Wenn du Session ausprobieren willst, schreib mir gern. Deine erste Nachricht landet bei mir als Nachrichtenanfrage.
+
+055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173
+
+[Bild: QR-Code mit der Session-ID von Christian Grigoriadis (Zagathou): 0550657…7173 – https://zagathou.github.io/session/session-qr.png] QR-Code – mit der Session-App scannen
+
+## Quellen
+
+Alle Links wurden am 03.10.2026 geprüft.
+
+### Offiziell von Session
+
+- Webseite: https://getsession.org/
+- Download (offizielle Links): https://getsession.org/download
+- Häufige Fragen (FAQ): https://getsession.org/faq
+- Dokumentation: https://docs.getsession.org/
+- Whitepaper (Fachartikel, 2020): https://arxiv.org/abs/2002.04609
+- Quellcode: https://github.com/session-foundation
+- Session Technology Foundation: https://session.foundation/
+- Wechsel in die Schweiz (Oktober 2024): https://getsession.org/introducing-the-session-technology-foundation
+- OPTF zur Übergabe: https://optf.ngo/the-optf-and-session
+- Wechsel zum Session Network (Mai 2025): https://getsession.org/migrating-from-the-oxen-network-to-session-network
+- Session Network (über 1500 Server, über 50 Länder): https://docs.getsession.org/session-network
+- Onion-Routing: https://docs.getsession.org/session-network/session-protocol/onion-requests-and-message-routing
+- Account IDs: https://docs.getsession.org/session-network/session-protocol/account-ids-and-self-managed-keys
+- Recovery Password: https://docs.getsession.org/session-network/session-protocol/account-restoration
+- Sicher bleiben auf Session: https://getsession.org/blog/how-to-stay-safe-on-session
+- Nachrichtenanfragen (2022): https://getsession.org/blog/message-requests-release
+- Verschwindende Nachrichten V2 (2024): https://getsession.org/blog/disappearing-messages-v2-a-new-way-to-protect-your-privacy-with-session
+- Screenshot-Warnungen entfernt (2025): https://getsession.org/blog/removing-screenshot-alerts
+- Sperren in manchen Regionen: https://getsession.org/blog/regional-connectivity
+- Warum Session 2020 auf Forward Secrecy verzichtete: https://getsession.org/blog/session-protocol-explained
+- Session-Protokoll V2 (Dezember 2025): https://getsession.org/blog/session-protocol-v2
+- Die Zukunft von Session (Juni 2026): https://getsession.org/the-future-of-session
+- Entwicklungsstand Pro Beta und Protokoll V2 (August 2026): https://getsession.org/session-development-update-pro-beta-protocol-v2
+- Pro Beta eingereicht (September 2026): https://getsession.org/development-update-pro-beta-release-submitted
+- Antwort von Session auf die Kritik (Januar 2025): https://getsession.org/a-response-to-recent-claims-about-sessions-security-architecture
+- Link-Vorschauen standardmässig aus (Mitgründer Kee Jefferys, 2025): https://discuss.privacyguides.net/t/critical-flaws-in-desktop-session-messenger/16674
+
+### Unabhängige Quellen
+
+- Quarkslab-Audit 2021: https://blog.quarkslab.com/audit-of-session-secure-messaging-application.html
+- Kritik eines Sicherheitsforschers (Januar 2025): https://soatok.blog/2025/01/14/dont-use-session-signal-fork/
+- The Guardian zum Umzug in die Schweiz (2024): https://www.theguardian.com/australia-news/2024/nov/05/session-encrypted-messaging-app-developer-moves-out-of-australia-police-visit-switzerland
+- 404 Media zum Umzug (2024): https://www.404media.co/encrypted-chat-app-session-leaves-australia-after-visit-from-police-2/
+- Citizen Lab zu FORCEDENTRY (2021): https://citizenlab.ca/research/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/
+- WhatsApp-Sicherheitshinweis CVE-2019-3568: https://www.facebook.com/security/advisories/cve-2019-3568
+- Apple: Blockierungsmodus: https://support.apple.com/de-de/105120
+
+### Zum Vergleich
+
+- Signal: Benutzernamen und Telefonnummer (2024): https://signal.org/blog/phone-number-privacy-usernames/
+- Signal: Anfragen von Behörden: https://signal.org/bigbrother/
+- Signal: Schutz vor Quantencomputern (PQXDH, 2023): https://signal.org/blog/pqxdh/
+- WhatsApp-Datenschutzerklärung (Europa): https://www.whatsapp.com/legal/privacy-policy-eea
+- BBC zu WhatsApp-Benutzernamen (Juni 2026): https://www.bbc.com/news/articles/c1dykk3135xo
+- Telegram FAQ (Verschlüsselung): https://telegram.org/faq
+- Telegram-Datenschutzerklärung: https://telegram.org/privacy
+- Threema: https://threema.com/de
+
+## Autor & Kontakt
+
+- Autor: Christian Grigoriadis (Zagathou)
+- Session-ID: 055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173
+- About: https://zagathou.github.io/zagathou/
+- GitHub: https://github.com/Zagathou
+- Für KI: LLMS.TXT (https://zagathou.github.io/session/llms.txt) · LLMS-FULL.TXT (https://zagathou.github.io/session/llms-full.txt)
+
+Unabhängige Fan- und Infoseite. Nicht verbunden mit der Session Technology Foundation (STF). „Session“ ist der Name ihres Projekts; alle Angaben ohne Gewähr, Stand 03.10.2026.
+
+These webpages are optimized for simple Non-Agentic Artificial Intelligence and easy to read.
+
+Last Updated: 03.10.2026
+
+Coded by GrokBot (https://x.ai/bot) / SpaceXAI (https://x.ai/)!
